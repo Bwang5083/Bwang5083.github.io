@@ -1,0 +1,155 @@
+/* So the HTML5 structural tags work in older browsers */
+article, aside, figure, footer, header, nav, section {
+    display: block;
+}
+
+/* the reset selector */
+* {
+	margin: 0;
+	padding: 0;
+}
+
+/* the styles for the elements */
+body {
+	font-family: Arial, Helvetica, sans-serif;
+    font-size: 87.5%;
+    width: 800px;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px solid #800000;
+    background-color: #fffded;
+}
+
+/* the styles for the header */
+header {
+	border-bottom: 3px solid #800000;
+	padding: 1.5em 0;
+	background-image: -moz-linear-gradient(
+	    30deg, #800000 0%, #fffded 30%, white 50%, #fffded 80%, #800000 100%);
+	background-image: -webkit-linear-gradient(
+	    30deg, #800000 0%, #fffded 30%, white 50%, #fffded 80%, #800000 100%);
+	background-image: -o-linear-gradient(
+	    30deg, #800000 0%, #fffded 30%, white 50%, #fffded 80%, #800000 100%);
+	background-image: linear-gradient(
+	    30deg, #800000 0%, #fffded 30%, white 50%, #fffded 80%, #800000 100%);
+}
+header h1 {
+	color: #800000;
+}
+header h2 {
+	font-style: italic;
+}
+header img {
+	float: left;
+	padding: 0 30px;
+}
+
+a { font-weight: bold; }
+a:link { color: blue; }
+a:hover, a:focus { color: green; font-style: italic;}
+
+p { padding-bottom: .5em; }
+
+ul {
+    line-height: 1.5;
+    padding: 0 0 1.5em 1.25em;
+}
+
+li { padding-bottom: 0.35em;}
+
+em { 
+    font-weight: bold;
+}
+
+/* the styles for the section */
+section {
+	clear: left;
+	padding: 0 20px 0 20px;
+	width: 525px;
+	float: right;
+}
+
+section blockquote{
+	padding: 0 2em 0 2em;
+	font-style: italic;
+}
+
+section h1 {
+	color: #800000;
+	font-size: 150%; 
+	text-align: left;
+	padding: .5em 0 .25em;
+}
+
+section h2 {
+	font-size: 120%; 
+	text-align: left;
+	padding-bottom: .25em
+}
+
+section ul {
+	padding: 0 0 1.5em 1.25em;
+}
+section li {
+	padding-bottom: .35em;
+}
+
+#speakers{
+	font-size: 150%;
+	color: #800000;
+	margin-top: .75em;
+	margin-bottom: .75em;
+}
+
+aside {
+	width: 215px;
+	float: right;
+	padding-left: 20px;
+}
+
+aside h1 {
+	color: #800000;
+	font-size: 150%;
+	padding: .5em 0 .25em;
+}
+aside h2 {
+	font-size: 120%;
+	padding-bottom: .25em;
+}
+
+aside img{
+	padding-bottom: 1em;
+}
+
+article{
+	border-top: 2px solid #800000;	
+	border-bottom: 2px solid #800000;
+}
+
+article img {
+	float: right;
+	margin: 1em 0 1em 1em;
+	border: 1px solid black;
+}
+
+article h1{
+	color: black;
+}
+
+footer {
+	border-top: 3px solid #800000;
+	clear: both;
+}
+
+footer p {
+	padding: 1em 0;
+	text-align: center;
+}
+
+.shadow{
+	text-shadow: 4px 6px 2px #800000;
+}
+
+/* the styles for the footer */
